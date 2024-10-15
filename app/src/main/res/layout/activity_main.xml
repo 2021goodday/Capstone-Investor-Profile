@@ -131,30 +131,12 @@
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="0dp"
+                        android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:drawableStart="@drawable/ic_2"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
                         android:text="Email"
-                        android:textAlignment="viewStart"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button3"
-                        style="@android:style/Widget.Button"
-                        android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginStart="32dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@drawable/btn_background_1"
-                        android:drawableStart="@drawable/ic_3"
-                        android:drawablePadding="20dp"
-                        android:paddingStart="20dp"
-                        android:text="Website"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -165,8 +147,26 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:paddingLeft="35dp"
-                        android:text="Investor Profile"
+                        android:text="Social Media"
                         android:textSize="20sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button3"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/btn_background_1"
+                        android:drawableStart="@drawable/ic_3"
+                        android:drawablePadding="20dp"
+                        android:paddingStart="20dp"
+                        android:text="Website"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button4"
@@ -181,7 +181,7 @@
                         android:drawableStart="@drawable/ic_4"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Experience"
+                        android:text="Facebook"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -194,74 +194,41 @@
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="0dp"
+                        android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:drawableStart="@drawable/ic_5"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Achievements"
-                        android:textAlignment="viewStart"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button11"
-                        style="@android:style/Widget.Button"
-                        android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginStart="32dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="0dp"
-                        android:background="@drawable/btn_background_1"
-                        android:drawableStart="@drawable/ic_11"
-                        android:drawablePadding="20dp"
-                        android:paddingStart="20dp"
-                        android:text="Learning Path"
-                        android:textAlignment="viewStart"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button12"
-                        style="@android:style/Widget.Button"
-                        android:layout_width="match_parent"
-                        android:layout_height="60dp"
-                        android:layout_marginStart="32dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="10dp"
-                        android:background="@drawable/btn_background_1"
-                        android:drawableStart="@drawable/ic_12"
-                        android:drawablePadding="20dp"
-                        android:paddingStart="20dp"
-                        android:text="Projects Invested"
+                        android:text="Instagram"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="160dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="195dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:paddingLeft="35dp"
-                        android:text="Edit Settings"
+                        android:text="Investor Profile"
                         android:textSize="20sp" />
+
+
+
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button6"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_marginStart="32dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginEnd="32dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/btn_background_1"
                         android:drawableStart="@drawable/ic_6"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Profile Information"
+                        android:text="Achievements"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -279,7 +246,7 @@
                         android:drawableStart="@drawable/ic_7"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Notifications"
+                        android:text="Skills & Expertise"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -297,36 +264,38 @@
                         android:drawableStart="@drawable/ic_8"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Account Privacy"
+                        android:text="Recent Activities"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:paddingLeft="35dp"
-                        android:text="Support"
+                        android:text="Edit Settings"
                         android:textSize="20sp" />
-
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button9"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_marginStart="32dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginEnd="32dp"
                         android:layout_marginBottom="0dp"
                         android:background="@drawable/btn_background_1"
                         android:drawableStart="@drawable/ic_9"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Help Center"
+                        android:text="Profile Management"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button10"
@@ -336,15 +305,16 @@
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginEnd="32dp"
-                        android:layout_marginBottom="0dp"
+                        android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:drawableStart="@drawable/ic_10"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="Report an issue"
+                        android:text="Account Management"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
                     <androidx.appcompat.widget.AppCompatButton
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
